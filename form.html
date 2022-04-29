@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
+    <title>Pozitif-Negatif Sayılar</title>
+
+</head>
+
+<body>
+    <div>
+        <div class="box1">
+            <h1>Pozitif Sayilar</h1>
+
+            <label for="pNumber"></label>
+            <input placeholder="Pozitif Sayi Giriniz..." type="text" id="pNumber" name="pNumber"><br><br>
+
+            <button onclick='addPositiveNumber()' type="button">Add Positive</button><br><br>
+
+            Pozitive Numbers:<p id="pozitiveSonuc"></p>
+
+
+        </div>
+        <div class="box2">
+            <h1>Negative Sayilar</h1>
+
+            <label for="nNumber"></label>
+            <input placeholder="Negatif Sayi Giriniz..." type="text" id="nNumber" name="nNumber"><br><br>
+
+            <button onclick='addNegativeNumber()' type="button">Add Negative</button><br><br>
+
+            Negative Numbers<p id="negativeSonuc"></p>
+
+
+        </div>
+    </div>
+  
+   <br><br>  <br > <br><br>  <br><br>  <br><br><br>  <br><br>
+  
+
+    <button id="hesapla" onclick='calculate()' type="button">Calculate</button>
+
+    <p id="pTotal"></p><p id="nTotal"></p>
+
+
+
+
+</body>
+
+</html>
